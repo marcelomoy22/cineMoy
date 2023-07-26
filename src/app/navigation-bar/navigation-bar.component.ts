@@ -35,7 +35,6 @@ ngOnInit(){
 
 eject(): void{
   this.mandar= true
-  console.log(this.mandar)
   // this.moviesPopularComponent.details(mandar);
 
 }
@@ -44,6 +43,14 @@ eject(): void{
     Swal.fire({
       title: 'Éxito!',
       text: '¡Aqui voy a poner el logeo con firebase!',
+      icon: 'success'
+    });
+  }
+
+  continuara(){
+    Swal.fire({
+      title: 'Éxito!',
+      text: '¡Continuara..  en cuanto me contraten :D!',
       icon: 'success'
     });
   }

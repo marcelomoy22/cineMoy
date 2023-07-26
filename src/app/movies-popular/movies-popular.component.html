@@ -2,6 +2,11 @@
   <div class="title">
     <h2>{{title}}</h2>
   </div>
+
+  <div class="filter-button-container">
+    <button class="filter-button" (click)="sortMoviesByPopularity()">Filtrar por Popularidad</button>
+  </div>
+
   <div class="cartelera-horizontal">
       <div *ngFor="let movie of movies" class="cartelera-item" (click)="details('s')" routerLink="/movies-detail/{{movie.id}}">
           <h4>{{ movie.title }}</h4>

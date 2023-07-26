@@ -1,6 +1,7 @@
 .detalle-pelicula {
     display: flex;
     align-items: center;
+    color: #ccc;
   }
   
   .detalle-pelicula img {

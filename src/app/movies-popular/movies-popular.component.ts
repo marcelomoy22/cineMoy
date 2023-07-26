@@ -49,7 +49,10 @@ export class MoviesPopularComponent implements OnInit{
 
   }
 
-
+  sortMoviesByPopularity() {
+    // Ordena los datos por el campo 'popularity' en orden descendente
+    this.movies.sort((a, b) => b.popularity - a.popularity);
+  }
 
   details(mandar: any){
     this.showComponent = false;
