@@ -1,0 +1,17 @@
+<div>
+    <div class="title">
+      <h2>{{title}}</h2>
+    </div>
+    <div class="cartelera-horizontal">
+        <div *ngFor="let movie of movies" class="cartelera-item" (click)="details('s')" routerLink="/movies-detail/{{movie.id}}">
+            <h4>{{ movie.title }}</h4>
+          <img loading="lazy" src='https://image.tmdb.org/t/p/original/{{movie.poster_path}}' width="150" height="200" alt="">
+          <span class="votacion">
+            <mat-icon class="star">star</mat-icon><a class="numStar">{{ movie.vote_average }}</a>
+          </span>
+        </div>
+      </div>
+      <mat-icon class="flecha">keyboard_arrow_left</mat-icon>
+      <mat-icon class="flecha">keyboard_arrow_right</mat-icon>
+  </div>
+  

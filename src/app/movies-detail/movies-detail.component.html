@@ -1,0 +1,14 @@
+<div *ngIf="movie">
+    <div class="detalle-pelicula">
+      <img src='https://image.tmdb.org/t/p/original/{{movie.poster_path}}' alt="{{ movie.title }}">
+      
+      <div>
+        <h2>{{ movie.title }}</h2>
+        <p>{{ movie.overview }}</p>
+        <div class="votacion">
+          <mat-icon class="star">star</mat-icon>
+          <a class="numStar">{{ movie.vote_average }}</a>
+        </div>
+      </div>
+    </div>
+  </div>

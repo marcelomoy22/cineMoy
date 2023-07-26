@@ -1,0 +1,59 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: #fff;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    margin-top: -20px;
+  }
+  
+  .logo img {
+    width: 200px; /* Ajusta el tamaño del logo según tus necesidades */
+    height: 80px; /* Ajusta el tamaño del logo según tus necesidades */
+    margin-right: 10px; /* Ajusta el margen derecho del logo según tus necesidades */
+  }
+  
+  .nav-links {
+    display: flex;
+    justify-content: center; /* Alinea los botones en el centro */
+    align-items: center; /* Centra verticalmente los botones */
+    flex-grow: 1; /* Permite que los botones tomen todo el espacio disponible en el centro */
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 15px;
+    padding: 8px 16px;
+    border: 2px solid #fff;
+    border-radius: 25px;
+    background-color: #333;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  /* Estilos para el botón de "Iniciar Sesión" */
+  .nav-links a.login-button {
+    background-color: #007bff;
+    color: #fff;
+    margin-left: 200px; /* Ajusta el margen izquierdo para separar el botón del lado derecho */
+    margin-right: -300px; 
+}
+  
+  .nav-links a.login-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .separator-line {
+    border: 1px solid #fff; /* Color y grosor de la línea blanca */
+    margin: 10px 0; /* Margen superior e inferior para separar la línea del contenido */
+  }

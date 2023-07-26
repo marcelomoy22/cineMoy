@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+body {
+    background: #000950;
+  }
+  
+  /* Ajustar estilos adicionales para el contenido */
+  body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: rgb(100, 100, 100);
+    text-align: center;
+  }
+
+  footer{
+    color: #ffff;
+  }

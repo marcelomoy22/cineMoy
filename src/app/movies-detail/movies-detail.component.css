@@ -1,0 +1,22 @@
+.detalle-pelicula {
+    display: flex;
+    align-items: center;
+  }
+  
+  .detalle-pelicula img {
+    max-width: 400px;
+    margin-right: 20px; /* Agrega un margen derecho para separar la imagen de los detalles */
+  }
+  
+  
+
+  .votacion {
+    display: flex;
+    align-items: center;
+  }
+  
+  .votacion .numStar {
+    font-size: 18px;
+    margin-left: 5px;
+  }
+  
