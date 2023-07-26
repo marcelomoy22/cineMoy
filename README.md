@@ -2,6 +2,18 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.5.
 
+## Requirements
+npm -v 8+
+node -v 16+
+
+## First Steps
+
+1. Clone te repo in github: git clone https://github.com/tu-usuario/cineMoy.git
+2. Move tobranch master with command: git checkout master
+3. npm install
+4. npm start
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
